@@ -1,19 +1,99 @@
-h1, .main-content {
-	text-align: center;
-  font weight: bold;
-  color: #fd354c;
-	text-shadow: 1px 1px 3px  #ffffe6;
-	border-style: groove;
-	height: 300px;
-	width: 500px;
-	border-width: 5px;
-	border-color: #4a331c;
-  font-family: 'Playfair Display', serif;
-
-}
-
-html, body {
-	height: 100%;
+* {
 	margin: 0;
-	background: linear-gradient(to bottom, #66ff66, #ccff99);
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
 }
+
+.header {
+	width: 100%;
+	height: 80px;
+	display: block;
+	background-color: #101010;
+}
+.inner_header {
+width: 1000px;
+height: 100%;
+display: block;
+margin: 0 auto;
+
+
+}
+.logo_container {
+	height: 100%;
+	display: table;
+	float: left;
+}
+.logo_container h1 {
+	color: white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: 200;
+}
+.logo_container h1 span {
+	font-weight: 1000;
+}
+.navigation {
+	float: right;
+	height: 100%;
+}
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+.navigation a li {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.navigation a:last-child{
+	padding-right: 2px;
+}
+
+.main-header {
+	/* Center Alignment Method */
+	display: block;
+	margin: 20px auto;
+	width: 50%;
+	/* Stylistic */
+	width: 50%;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: center;
+	border: solid 1px black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 16px;
+}
+
+
+
+body {
+	height: 100%;
+	background-color: #FFA07A;
+}
+
+h1 {
+	text-align: center;
+}
+h3 {
+  text-align: center;
+
+}
+h2 {
+	text-align: center;
+}
+
+
+
+
+/* Background color pallette and good options text
+ https://www.w3schools.com/colors/color_tryit.asp?hex=FFA07A */
